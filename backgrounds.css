@@ -1,0 +1,59 @@
+#arkaplan1{
+    height: 100vh;
+    width: 100vw;
+    z-index: -5;
+    background-image: url(image\(1\).png);
+    
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    #arkaplan1{
+        height: 80vh;
+    }
+
+    
+}
+
+
+
+#arkaplan2{
+    
+    z-index: -5;
+    background-image: url(tasduvar.jpg);
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#arkaplan3{
+    
+    z-index: -5;
+    background-image: url(image.png);
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width:800px) {
+    #arkaplan3{
+        height: 200vh;
+    }
+
+    
+}
+
+#acilis-iletisim{
+    
+    background-image: url(image\(4\).png);
+    
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+}
